@@ -11,13 +11,15 @@ parallelExecution in test := false
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.11"
 
 val sparkVersion = "2.2.0"
 
 libraryDependencies ++=
   Seq(
     "org.apache.hadoop" % "hadoop-azure" % "2.7.3",
+    "com.microsoft.azure" %% "spark-streaming-eventhubs" % "2.1.5",
+    "com.microsoft.azure" % "spark-streaming-eventhubs_2.11" % "2.1.5",
     "ch.qos.logback" % "logback-classic" % "1.1.7",
     "com.rollbar" % "rollbar" % "0.5.3",
     "com.typesafe" % "config" % "1.2.1",
