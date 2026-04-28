@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/spark-structured-streaming-on-azure.g8](https://git.navicore.tech/navicore/spark-structured-streaming-on-azure.g8).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 A [g8] Template for Spark Structured Streaming on Azure
 ---
 
